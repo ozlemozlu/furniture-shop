@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "DM Serif Display";
+    font-weight: 400;
+    src: url("/DMSerifDisplay/DMSerifDisplay-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-weight: 400;
+    src: url("/Roboto/Roboto-Regular.ttf");
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    overflow: auto;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-container {
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 90px;
+}
+
+.navbar-link,
+.brand {
+    text-decoration: none;
+}
+
+.brand {
+    color: #4B4B4B;
+    font-family: DM Serif Display;
+    font-size: 36px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    gap: 11px;
+    cursor: pointer;
+}
+
+.links {
+    display: flex;
+    gap: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbar-link {
+    color: #4B4B4B;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-container {
+    position: relative;
+}
+
+.hero-back {
+    position: absolute;
+    right: 0;
+    top: 69px;
+}
+
+.hero-img {
+    position: absolute;
+    right: 90px;
+    top: 0;
+}
+
+.hero-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background: rgba(255, 255, 255, 0.78);
+    backdrop-filter: blur(15px);
+    margin-left: 105px;
+    margin-top: 270px;
+    padding: 60px 0;
+    width: min-content;
+}
+
+.hero-title {
+    color: #4B4B4B;
+    font-family: DM Serif Display;
+    font-size: 64px;
+    font-weight: 400;
+    min-width: 500px;
+    margin: 0;
+    line-height: 1;
+}
+
+.hero-text {
+    color: #737373;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 40px;
+}
+
+.product-container {
+    height: fit-content;
+    width: 100%;
+
+}
+
+.product-title {
+    position: relative;
+    left: 100px;
+    top: 80px;
+    color: #4B4B4B;
+    font-family: DM Serif Display;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.product-nav {
+    position: relative;
+    top: 200px;
+    padding: 10px;
+}
+
+.product-type {
+    color: rgba(75, 75, 75, 0.50);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: space-between;
+}
