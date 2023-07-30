@@ -139,6 +139,7 @@ main {
     position: relative;
     top: 200px;
     padding: 10px;
+    text-align: center;
 }
 
 .product-type {
@@ -149,4 +150,8 @@ main {
     text-decoration: none;
     display: inline-flex;
     justify-content: space-between;
+}
+
+.product-type:nth-child(1) {
+    color: #4B4B4B;
 }
