@@ -137,8 +137,10 @@ main {
     top: 40px;
     padding: 5px;
     display: flex;
-    justify-content: center;
-    gap: 55px;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 500px;
+    gap: 8px;
 }
 
 .product-type {
@@ -237,6 +239,13 @@ main {
     font-size: 24px;
     font-weight: 400;
     line-height: 150%;
+}
+
+.showcase-button {
+    padding: 0;
+    border: 0;
+    height: 70px;
+    cursor: pointer;
 }
 
 .arrow {
